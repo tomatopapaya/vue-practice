@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/vue-practice/',   // 👈 新增這一行
   plugins: [
     vue(),
     vueDevTools(),
